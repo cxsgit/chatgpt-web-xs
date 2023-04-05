@@ -25,14 +25,14 @@ const isChatGPTAPI = computed<boolean>(() => !!authStore.isChatGPTAPI)
 
 const active = ref('General')
 
-const show = computed({
-  get() {
-    return props.visible
-  },
-  set(visible: boolean) {
-    emit('update:visible', visible)
-  },
-})
+// const show = computed({
+//   get() {
+//     return props.visible
+//   },
+//   set(visible: boolean) {
+//     emit('update:visible', visible)
+//   },
+// })
 </script>
 
 <template>
