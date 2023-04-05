@@ -7,17 +7,17 @@ import About from './About.vue'
 import { useAuthStore } from '@/store'
 import { SvgIcon } from '@/components/common'
 
-interface Props {
-  visible: boolean
-}
+// interface Props {
+//   visible: boolean
+// }
+//
+// interface Emit {
+//   (e: 'update:visible', visible: boolean): void
+// }
 
-interface Emit {
-  (e: 'update:visible', visible: boolean): void
-}
-
-const props = defineProps<Props>()
-
-const emit = defineEmits<Emit>()
+// const props = defineProps<Props>()
+//
+// const emit = defineEmits<Emit>()
 
 const authStore = useAuthStore()
 
