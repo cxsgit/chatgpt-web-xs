@@ -30,7 +30,7 @@ RUN pnpm install
 
 COPY /service /app
 
-# RUN pnpm build
+RUN pnpm build
 
 # service
 FROM node:lts-alpine
